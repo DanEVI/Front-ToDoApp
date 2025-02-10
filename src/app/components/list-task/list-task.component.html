@@ -29,7 +29,7 @@
         </tbody>
     </table>
 </div>
-<!-- Modal de Edición -->
+<!-- Modal -->
 <div *ngIf="isModalOpen" class="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50">
     <div class="bg-white p-6 rounded-lg shadow-lg w-96">
         <h2 class="text-lg font-bold mb-4">Editar Tarea</h2>
@@ -41,7 +41,6 @@
                     class="mt-1 block w-full p-2 border border-gray-300 rounded-lg">
             </div>
 
-            <!-- Botones -->
             <div class="flex justify-end space-x-2">
                 <button type="button" (click)="closeModal()"
                     class="px-4 py-2 bg-gray-400 text-white rounded-lg hover:bg-gray-500">
